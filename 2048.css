@@ -1,0 +1,60 @@
+/* Genel sayfa stilleri */
+body {
+    font-family: Arial, Helvetica, sans-serif; /* Sayfa fontunu belirle */
+    text-align: center; /* Sayfa içeriğini ortala */
+}
+
+/* Yatay çizgi stilleri */
+hr {
+    width: 500px; /* Yatay çizginin genişliğini belirle */
+}
+
+/* Oyun tahtası stilleri */
+#board {
+    width: 400px; /* Tahta genişliği */
+    height: 400px; /* Tahta yüksekliği */
+
+    background-color: #cdc1b5; /* Arka plan rengi */
+    border: 6px solid #bbada0; /* Kenarlık rengi ve kalınlığı */
+
+    margin: 0 auto; /* Tahtayı yatayda ortala */
+    display: flex; /* İçerikleri birbirine hizalama */
+    flex-wrap: wrap; /* İçeriklerin tahtaya sığdığından emin olma */
+}
+
+/* Tahta hücresi stilleri */
+.tile {
+    width: 90px; /* Hücre genişliği */
+    height: 90px; /* Hücre yüksekliği */
+    border: 5px solid #bbada0; /* Hücre kenarlık rengi ve kalınlığı */
+
+    font-size: 40px; /* Metin boyutu */
+    font-weight: bold; /* Metin kalınlığı */
+    display: flex; /* İçerikleri birbirine hizalama */
+    justify-content: center; /* İçeriği yatayda ortala */
+    align-items: center; /* İçeriği dikeyde ortala */
+}
+
+/* Renkli hücrelerin stilleri */
+/* Not: Renkler x2, x4, x8, ... için ayrı ayrı tanımlanmıştır */
+.x2 {
+    background-color: #eee4da; /* Arkaplan rengi */
+    color: #727371; /* Metin rengi */
+}
+
+.x4 {
+    background-color: #ece0ca; /* Arkaplan rengi */
+    color: #727371; /* Metin rengi */
+}
+
+.x8 {
+    background-color: #f4b17a; /* Arkaplan rengi */
+    color: white; /* Metin rengi */
+}
+
+.x16{
+    background-color: #f59575; /* Arkaplan rengi */
+    color: white; /* Metin rengi */
+}
+
+/* Diğer renkli hücreler için benzer stil tanımlamaları devam ediyor */
